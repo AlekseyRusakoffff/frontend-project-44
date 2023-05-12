@@ -5,7 +5,7 @@ brain-games:
 publish:
 	npm publish --dry-run
 make lint:
-	nnpx eslint .
+	npx eslint .
 test:
 	npm test --test-reporter=spec
 test-coverage:
