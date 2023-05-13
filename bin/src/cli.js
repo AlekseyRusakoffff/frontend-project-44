@@ -1,5 +1,6 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
 // Wait for user's response.
-const userName = readlineSync.question("May I have your name? ");
-console.log("Hi " + userName + "!");
+// eslint-disable-next-line no-unused-vars
+const userName = readlineSync.question('May I have your name? ');
+console.log("Hi ' + userName + '!");
