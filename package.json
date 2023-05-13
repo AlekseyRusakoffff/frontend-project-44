@@ -9,7 +9,8 @@
   "author": "",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/src.cli.js"
   },
   "license": "ISC",
   "dependencies": {
