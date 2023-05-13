@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/env node
 import { sayNameHello } from '../src/cli.js';
 
 console.log('Welcome to the Brain Games!');
