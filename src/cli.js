@@ -7,3 +7,4 @@ export const sayNameHello = () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hi ${userName}!`);
 };
+export default sayNameHello;
