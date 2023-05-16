@@ -9,12 +9,12 @@
   "author": "",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/src.cli.js"
+    "brain-games": "bin/brain-games.js"
   },
   "license": "ISC",
   "dependencies": {
     "lint": "^0.8.19",
+    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
