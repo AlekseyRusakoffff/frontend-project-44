@@ -14,6 +14,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "brain-even": "^1.0.0",
     "lint": "^1.1.2",
     "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
