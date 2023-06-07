@@ -1,16 +1,6 @@
 #!/usr/bin/env node
-import readlineSync from 'readline-sync';
+import { readlineSync, sayNameHello, num } from '../src/index.js';
 
-console.log('Welcome to the Brain Games!');
-function num() {
-  const number = (Math.round(Math.random() * 100));
-  return number;
-}
-function sayNameHello() {
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hi ${userName}!`);
-  return userName;
-}
 function game() {
   const userName = sayNameHello();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
