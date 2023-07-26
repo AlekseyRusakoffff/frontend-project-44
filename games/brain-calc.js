@@ -22,7 +22,7 @@ function calculate(num1, num2, operator) {
   return operator;
 }
 
-function gamecalc() {
+function gameCalc() {
   const userName = sayNameHello();
   console.log('What is the result of the expression?');
   for (let i = 0; i < 3; i += 1) {
@@ -45,4 +45,4 @@ function gamecalc() {
   console.log(`Congratulations, ${userName}!`);
 }
 
-gamecalc();
+gameCalc();
