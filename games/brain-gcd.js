@@ -5,8 +5,8 @@ function gameGcd() {
   const userName = sayNameHello();
   console.log('Find the greatest common divisor of given numbers.');
   for (let i = 0; i < 3; i += 1) {
-    let num1 = num();
-    let num2 = num();
+    let num1 = num(1, 25);
+    let num2 = num(1, 25);
 
     const str = '';
     const quest = readlineSync.question(`${'Question: '} ${num1} ${num2} ${'\nYour answer: '}`);

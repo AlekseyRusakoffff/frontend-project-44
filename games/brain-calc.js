@@ -26,8 +26,8 @@ function gameCalc() {
   const userName = sayNameHello();
   console.log('What is the result of the expression?');
   for (let i = 0; i < 3; i += 1) {
-    const num1 = num();
-    const num2 = num();
+    const num1 = num(1, 25);
+    const num2 = num(1, 25);
     const operator = operation();
     const str = '';
     const quest = readlineSync.question(`${'Question: '}${num1} ${operator} ${num2} ${'\nYour answer: '}`);

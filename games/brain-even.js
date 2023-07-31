@@ -5,7 +5,7 @@ function game() {
   const userName = sayNameHello();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
-    const numsave = num();
+    const numsave = num(1, 100);
     const quest = readlineSync.question(`${'question: '}${numsave}${'\nYour answer: '}`);
     if ((numsave % 2 === 0 && quest === 'yes') || (numsave % 2 !== 0 && quest === 'no')) {
       console.log('Correct!');
