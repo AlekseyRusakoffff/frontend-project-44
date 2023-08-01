@@ -4,7 +4,7 @@ brain-games:
 	 node bin/brain-games.js
 make publish:
 	npm publish --dry-run
-make link:
+make lint:
 	npx eslint .
 brain-even:
 	node games/brain-even.js
