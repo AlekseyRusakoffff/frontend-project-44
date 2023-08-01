@@ -10,7 +10,7 @@ function gameGcd() {
 
     const str = '';
     const quest = readlineSync.question(`${'Question: '} ${num1} ${num2} ${'\nYour answer: '}`);
-    let gcd;
+    const gcd = num1;
     while (num1 !== num2) {
       if (num1 > num2) {
         num1 -= num2;
@@ -18,7 +18,7 @@ function gameGcd() {
         num2 -= num1;
       }
     }
-    gcd = num1;
+
     const correctAnswer = `${str}${gcd}`;
 
     if (quest === correctAnswer) {
