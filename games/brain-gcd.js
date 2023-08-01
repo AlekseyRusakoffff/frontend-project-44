@@ -19,12 +19,12 @@ function gameGcd() {
       }
     }
     gcd = num1;
-    const userResponse = `${str}${gcd}`;
+    const correctAnswer = `${str}${gcd}`;
 
-    if (quest === userResponse) {
+    if (quest === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${quest}${' is wrong answer ;(. Correct answer was '}${userResponse}${"\nLet's try again"}, ${userName}!`);
+      console.log(`${quest}${' is wrong answer ;(. Correct answer was '}${correctAnswer}${"\nLet's try again"}, ${userName}!`);
       return;
     }
   }
