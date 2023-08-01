@@ -11,8 +11,8 @@ brain-even:
 brain-calc:
 	node games/brain-calc.js
 brain-gcd:
- node games/brain-gcd.js
+	node games/brain-gcd.js
 brain-progression:
- node games/brain-progression.js
+	node games/brain-progression.js
 brain-prime:
- node games/brain-prime.js
+	node games/brain-prime.js
