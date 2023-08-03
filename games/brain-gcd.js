@@ -2,7 +2,9 @@
 import { readlineSync, sayNameHello, num } from '../src/index.js';
 
 function gameGcd() {
+  console.log('Welcome to the Brain Games!');
   const userName = sayNameHello();
+  console.log(`Hello, ${userName}!`);
   console.log('Find the greatest common divisor of given numbers.');
   for (let i = 0; i < 3; i += 1) {
     let num1 = num(1, 25);
