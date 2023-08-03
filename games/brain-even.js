@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 import { readlineSync, sayNameHello, num } from '../src/index.js';
 
+console.log('Welcome to the Brain Games!');
+const userName = sayNameHello();
+
+console.log(`Hello, ${userName}!`);
 function game() {
-  console.log('Welcome to the Brain Games!');
-  const userName = sayNameHello();
-  console.log(`Hello, ${userName}!`);
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
     const numsave = num(1, 100);

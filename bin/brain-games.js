@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 import { sayNameHello } from '../src/cli.js';
 
-// sayNameHello();
+console.log('Welcome to the Brain Games!');
+const userName = sayNameHello();
+console.log(`Hello, ${userName}!`);
