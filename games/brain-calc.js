@@ -23,7 +23,7 @@ function calculate(num1, num2, operator) {
 }
 
 function gameCalc() {
-  console.log('Welcome to the Brain Games!');
+  // console.log('Welcome to the Brain Games!');
   const userName = sayNameHello();
   console.log(`Hello, ${userName}!`);
   console.log('What is the result of the expression?');
