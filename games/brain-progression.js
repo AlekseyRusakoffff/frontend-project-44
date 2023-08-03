@@ -26,7 +26,7 @@ const getQuestionAndAnswer = () => {
 };
 
 function gameProgression() {
-  // console.log('Welcome to the Brain Games!');
+  console.log('Welcome to the Brain Games!');
   const userName = sayNameHello();
   console.log(`Hello, ${userName}!`);
   console.log('What number is missing in the progression?');
